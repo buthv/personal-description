@@ -1,3 +1,65 @@
 * {
   box-sizing: border-box;
 }
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+  
+  background-image: url(img/giphy.gif);
+  background-size: 300px;
+}
+
+/* components */
+main{
+ background-color: rgba(255,255,255,.8);
+}
+
+.profile_image {
+  width: 50%;
+}
+
+.profile_info{
+ text-align: center;
+  padding-bottom: 100px;
+}
+
+/* typography */
+
+
+h1{
+  font-size: 4em;
+  font-family: Muli;
+  color: black;
+}
+
+h2{
+  color: deeppink;
+  font-size: 1.8em;
+}
+
+.contact{
+  color: deeppink;
+}
+p{
+  font-weight: 600;
+  font-size: 1.2em;
+}
+a{
+  text-decoration: underline;
+  color: black;
+  font-weight: 600;
+}
+
+a:hover{
+  color: deeppink;
+}
+
+/* media query */
+@media only screen and (max-width: 600px) {
+    main {
+        flex-direction: column;
+      height: auto;
+    }
+}
